@@ -32,7 +32,7 @@
     "iojs": ">=1.0.0"
   },
   "scripts": {
-     "postinstall": "node_modules/gobble-cli/lib/index.js build lib",
-     "watch": "node_modules/gobble-cli/lib/index.js watch lib"
+    "postinstall": "$(npm bin)/gobble build lib",
+    "watch": "$(npm bin)/gobble watch lib"
   }
 }
